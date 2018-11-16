@@ -1,0 +1,12 @@
+# local package
+-e .
+
+# external requirements
+click
+python-dotenv==0.8.2
+tensorflow-gpu==1.8.0
+keras==2.2.4
+netCDF4
+pandas
+numpy
+pickle
