@@ -29,7 +29,9 @@ Ensure that you are located in the project root directory and implement commands
 
   6. *make evaluate_1028_demo*
 
-    - You will get the resulted score. Since ensemble can boost the prediction accuracy, I have pre-trained many models for you to try ensemble! Go back to the the project root directory and run:
+    - You will get the resulted score. BTW, to reproduce our online scores, you can evaluate all submitted files in  'src/weather_forecasting2018_eval/pred_result_csv/submit_csv' by changing evaluated file name.
+
+    - Since ensemble can boost the prediction accuracy, I have pre-trained many models for you to try ensemble! Go back to the the project root directory and run:
 
   7. *make load_multi_models_pred*
 
