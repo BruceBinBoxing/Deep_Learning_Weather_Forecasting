@@ -76,42 +76,42 @@ Everyday, we have three opportunities to submit. We will use 3 models
 **3. Single model 2:** Seq2Seq_MVE_layers_50_50_loss_mae_dropout0 (At ./models/model_for_official)
 #### Pipeline steps:
 
-1. **Download raw test data oneline to the path: ./data/raw/**
-2. **Edit file** '/src/data/make_TestOnlineData_from_nc.py'. Set *file_name* to the same of the downloaded file in bellow snippet:
-> elif process_phase == 'OnlineEveryDay':
+  1. **Download raw test data oneline to the path: ./data/raw/**
+  2. **Edit file** '/src/data/make_TestOnlineData_from_nc.py'. Set *file_name* to the same of the downloaded file in bellow snippet:
+  > elif process_phase == 'OnlineEveryDay':
       file_name='ai_challenger_wf2018_testb1_20180829-20181028.nc'
 
-3. **Modify Makefile file for the rule 'make_TestOneDayOnlineData_for_submit'**:
+  3. **Modify Makefile file for the rule 'make_TestOneDayOnlineData_for_submit'**:
 
-  - 3.1 Set --process_phase=OnlineEveryDay
-  - 3.2 Set --datetime=2018xxxx to month and day of prediction.
-  - 3.3 Run 'make make_TestOneDayOnlineData_for_submit'
+    - 3.1 Set --process_phase=OnlineEveryDay
+    - 3.2 Set --datetime=2018xxxx to month and day of prediction.
+    - 3.3 Run 'make make_TestOneDayOnlineData_for_submit'
 
-4. **Modify Makefile for rule 'load_multi_models_pred'**: (Take datetime=2018xxxx as instance)
+  4. **Modify Makefile for rule 'load_multi_models_pred'**: (Take datetime=2018xxxx as instance)
 
-  - 4.1 Set --test_file_name = 'OnlineEveryDay_2018xxxx_norm.dict'
-  - 4.2 Set --saved_csv_path = './src/weather_forecasting2018_eval/ensemble_2018xxxx03/'
-  - 4.3 Set --saved_csv_name=$$model-2018xxxx03.csv
-  - 4.4 Run 'make load_multi_models_pred'
-  - 4.5 Locate to './src/weather_forecasting2018_eval/ensemble_2018xxxx03/', run 'python ensemble.py' and create 'ensemble_avg.csv' file. Copy and rename it to 'forecast-2018xxxx03.csv' then SUBMIT (1) it.
+    - 4.1 Set --test_file_name = 'OnlineEveryDay_2018xxxx_norm.dict'
+    - 4.2 Set --saved_csv_path = './src/weather_forecasting2018_eval/ensemble_2018xxxx03/'
+    - 4.3 Set --saved_csv_name=$$model-2018xxxx03.csv
+    - 4.4 Run 'make load_multi_models_pred'
+    - 4.5 Locate to './src/weather_forecasting2018_eval/ensemble_2018xxxx03/', run 'python ensemble.py' and create 'ensemble_avg.csv' file. Copy and rename it to 'forecast-2018xxxx03.csv' then SUBMIT (1) it.
 
-5. **Modify Makefile for rule 'load_single_model_and_predict'**
+  5. **Modify Makefile for rule 'load_single_model_and_predict'**
 
-  - 5.1 set MODEL_NAME_prediction = Seq2Seq_MVE_layers_50_50_loss_mae_dropout0 (Or another model you have trained)
-  - 5.2 set --test_file_name='OnlineEveryDay_2018xxxx_norm.dict' \
-  - 5.3 set --saved_csv_name=$(MODEL_NAME_prediction)-2018xxxx03.csv
-  - 5.4 run 'make load_single_model_and_predict'
-  - 5.5 set MODEL_NAME_prediction = Seq2Seq_MVE_layers_222_222_loss_mve_dropout0
-  - 5.6 run 'make load_single_model_and_predict'
+    - 5.1 set MODEL_NAME_prediction = Seq2Seq_MVE_layers_50_50_loss_mae_dropout0 (Or another model you have trained)
+    - 5.2 set --test_file_name='OnlineEveryDay_2018xxxx_norm.dict' \
+    - 5.3 set --saved_csv_name=$(MODEL_NAME_prediction)-2018xxxx03.csv
+    - 5.4 run 'make load_single_model_and_predict'
+    - 5.5 set MODEL_NAME_prediction = Seq2Seq_MVE_layers_222_222_loss_mve_dropout0
+    - 5.6 run 'make load_single_model_and_predict'
 
-6. **Locate to './src/weather_forecasting2018_eval/pred_result_csv/'**:
+  6. **Locate to './src/weather_forecasting2018_eval/pred_result_csv/'**:
 
-  - 6.1 Rename Seq2Seq_MVE_layers_50_50_loss_mae_dropout0-2018xxxx03.csv to 'forecast-2018xxxx03.csv' and SUBMIT (2)
-  - 6.2 Rename Seq2Seq_MVE_layers_222_222_loss_mve_dropout0-2018xxxx03.csv to 'forecast-2018xxxx03.csv' and SUBMIT (3)
+    - 6.1 Rename Seq2Seq_MVE_layers_50_50_loss_mae_dropout0-2018xxxx03.csv to 'forecast-2018xxxx03.csv' and SUBMIT (2)
+    - 6.2 Rename Seq2Seq_MVE_layers_222_222_loss_mve_dropout0-2018xxxx03.csv to 'forecast-2018xxxx03.csv' and SUBMIT (3)
 
-7. Sanity check by visualization (not try).
+  7. Sanity check by visualization (not try).
 
-   We'd better plot for Sanity check before submitting! (in notebook or Excel). But we do not try this.
+     - We'd better plot for Sanity check before submitting! (in notebook or Excel). But we do not try this.
 
 
 ### Customize model parameters
