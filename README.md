@@ -119,9 +119,11 @@ Everyday, we have three opportunities to submit. We will use 3 models
 You can dive into the './src/models/parameter_config_class.py'. Due to the parameters of the deep model are too many. Here we do not play exhaustedly. We mainly play different parameters of 'self.layers' and use ensemble to combine shallow and deep seq2seq model.
 
 Hope your like this project. Please let me know your ideas and questions.
+
+
 Best regards.
 
-Bin
+*Bin*
 
 Project Organization
 ------------
