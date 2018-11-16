@@ -1,6 +1,8 @@
-weather_AI_Challenger
+Global AI Challenger-Weather Forecasting
 ==============================
-*This is my first competition project. If it is helpful, a star would be a big stimuli for me.*
+Produce more accurate weather forecasts based on the observation and prediction of meteorological elements.
+
+Our rank-3 (CCIT007) score indicates end-to-end seq2seq Deep Learning model with small feature engineering can greatly improve weather forecasting accuracy (*This is my first competition project. If it is helpful, a star would be a big stimuli for me.*)
 
 ### Requirements
 Based on **Python 3.6.** Required packages like keras, tensorflow etc. are iincluded in **requirements.txt**. Run bellow command to install them.
