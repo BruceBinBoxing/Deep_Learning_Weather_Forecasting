@@ -31,16 +31,16 @@ Ensure that you are located in the project root directory and implement commands
 
   6. *make evaluate_1028_demo*
 
-    - You will get the resulted score. BTW, to reproduce our online scores, you can evaluate all submitted files in  'src/weather_forecasting2018_eval/pred_result_csv/submit_csv' by changing evaluated file name.
+    - You will get the resulted score (This day i.e., 28/10 is relatively hard to predict, we only got score of 0.2408 using this demo model). BTW, to reproduce our online scores, you can evaluate all submitted files in  'src/weather_forecasting2018_eval/pred_result_csv/submit_csv' by changing evaluated file name.
 
-    - Since ensemble can boost the prediction accuracy, I have pre-trained many models for you to try ensemble! Go back to the the project root directory and run:
+    - Since ensemble can improve the prediction accuracy and stability, I have trained many models for you to try ensemble! Go back to the the project root directory and run next command *7*:
 
   7. *make load_multi_models_pred*
 
      - Three different models are loaded and predict in turn. The resulted .csv file of each model is saved in './src/weather_forecasting2018_eval/ensemble_2018102803/'
 
     - Then locate yourself to ./src/weather_forecasting2018_eval/ensemble_2018102803/
-    and run:
+    and run next command *8*:
 
   8. *python ensemble.py*
 
@@ -48,7 +48,7 @@ Ensure that you are located in the project root directory and implement commands
 
   9. *make evaluate_1028_demo_ensemble*
 
-    - You will find the score of ensemble. Maybe you can find that ensemble result is lower than single model. Don't be confused about this. The performance of a single model can fluctuate very much according to different dataset. However stability is a great trait of ensemble learning.
+    - You will find the score of ensemble. Maybe sometimes you can find that ensemble result is lower than single model. Don't be confused about this. The performance of a single model can fluctuate very much according to different dataset. However stability is a great trait of ensemble learning. We  got score of 0.3440 using this demo ensemble model, which is a little higher than our online score 0.3358. 
 
 ### How to change test dataset for other days?
 Everyday, we have three opportunities to submit. We will use 3 models

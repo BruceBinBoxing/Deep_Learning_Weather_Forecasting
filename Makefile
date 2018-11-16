@@ -61,22 +61,6 @@ make_TestOneDayOnlineData_for_submit:
 	--datetime 20181028 \
 	'./data/processed/'
 
-	#$(PYTHON_INTERPRETER) \
-	src/data/make_TestOnlineData_from_nc.py \
-	'./data/raw/' \
-	--process_phase testB \
-	'./data/interim/'	\
-	--datetime 20181023 \
-	'./data/processed/'
-
-	#$(PYTHON_INTERPRETER) \
-	src/data/make_TestOnlineData_from_nc.py \
-	'./data/raw/' \
-	--process_phase OnlineEveryDay \
-	'./data/interim/' \
-	--datetime 20181028 \
-	'./data/processed/'
-
 #MODEL_NAME := seq2seq_subnet_50_swish_dropout
 MODEL_NAME := Seq2Seq_MVE
 ## Train and Predict

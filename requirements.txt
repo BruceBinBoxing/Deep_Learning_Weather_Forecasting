@@ -9,4 +9,5 @@ keras==2.2.4
 netCDF4
 pandas
 numpy
-pickle
+matplotlib==3.0.0
+sklearn
