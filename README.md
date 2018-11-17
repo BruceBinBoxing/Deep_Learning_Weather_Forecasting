@@ -7,9 +7,8 @@ Our rank-3 (CCIT007) score indicates end-to-end seq2seq Deep Learning model with
 MIT
 ### Project Framework
 I feel [cookiecutter-data-science](https://drivendata.github.io/cookiecutter-data-science/) is helpful to organize project codes. Hope you also like it.
-
 ### Requirements
-Based on **Python 3.6.** Required packages like keras, tensorflow etc. are iincluded in **requirements.txt**. Run bellow command to install them.
+I test it on **MacOS** and **Ubuntu**. It is based on **Python 3.6.** Required packages like keras, tensorflow etc. are iincluded in **requirements.txt**. Run bellow command to install them.
 > pip install -r requirements.txt
 
 ### Pipeline for quick start.
