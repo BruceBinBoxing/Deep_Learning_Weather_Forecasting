@@ -26,9 +26,11 @@ Ensure that you are located in the project root directory and implement commands
   3. *make make_TestOneDayOnlineData_for_submit* **(Prepare one-day test data)**
   4. *make train_from_scratch* **(Train)**
   5. *make load_single_model_and_predict* **(Test)**
+
     - Then a file called **'Seq2Seq_MVE_layers_50_50_loss_mae_dropout0-2018102803_demo.csv'** is created in the path './src/weather_forecasting2018_eval/pred_result_csv/'.
     To evaluate, locate yourself to the path'./src/weather_forecasting2018_eval' and run:
   6. *make evaluate_1028_demo*
+
     - You will get the resulted score (This day i.e., 28/10 is relatively hard to predict, we only got score of 0.2408 using this demo model). BTW, to reproduce our online scores, you can evaluate all submitted files in  'src/weather_forecasting2018_eval/pred_result_csv/submit_csv' by changing evaluated file name.
     - Since ensemble can improve the prediction accuracy and stability, I have trained many models for you to try ensemble! Go back to the the project root directory and run next command 7:
 
@@ -37,8 +39,10 @@ Ensure that you are located in the project root directory and implement commands
      - Then locate yourself to ./src/weather_forecasting2018_eval/ensemble_2018102803/ and run next command 8:
 
   8. *python ensemble.py*
+
     - Here ensemble is to simply calculate mathematical mean. You will get the file called ensemble_avg_2018102803.csv. Locate yourself to ./src/weather_forecasting2018_eval and run:
   9. *make evaluate_1028_demo_ensemble*
+
     - You will find the score of ensemble. Maybe sometimes you can find that ensemble result is lower than single model. Don't be confused about this. The performance of a single model can fluctuate very much according to different dataset. However stability is a great trait of ensemble learning. We  got score of 0.3440 using this demo ensemble model, which is a little higher than our online score 0.3358.
 
 ### How to change test dataset for other days?
