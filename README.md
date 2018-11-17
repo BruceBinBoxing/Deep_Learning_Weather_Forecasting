@@ -5,6 +5,9 @@ Global AI Challenger-Weather Forecasting
 Our rank-3 (CCIT007) score indicates end-to-end seq2seq Deep Learning model with small feature engineering can greatly improve weather forecasting accuracy (This is our first competition project. If it is helpful, a star would be a big stimuli for us. Many thanks to *Huaishao Luo's* big help.)
 ### License
 MIT
+### Project Framework
+I feel [cookiecutter-data-science](https://drivendata.github.io/cookiecutter-data-science/) is helpful to organize project codes. Hope you also like it.
+
 ### Requirements
 Based on **Python 3.6.** Required packages like keras, tensorflow etc. are iincluded in **requirements.txt**. Run bellow command to install them.
 > pip install -r requirements.txt
