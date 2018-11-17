@@ -27,8 +27,8 @@ Ensure that you are located in the project root directory and implement commands
   4. *make train_from_scratch* **(Train)**
   5. *make load_single_model_and_predict* **(Test)**
 
-    - Then a file called **'Seq2Seq_MVE_layers_50_50_loss_mae_dropout0-2018102803_demo.csv'** is created in the path './src/weather_forecasting2018_eval/pred_result_csv/'.
-    To evaluate, locate yourself to the path'./src/weather_forecasting2018_eval' and run:
+      - Then a file called **'Seq2Seq_MVE_layers_50_50_loss_mae_dropout0-2018102803_demo.csv'** is created in the path './src/weather_forecasting2018_eval/pred_result_csv/'.
+      To evaluate, locate yourself to the path'./src/weather_forecasting2018_eval' and run:
   6. *make evaluate_1028_demo*
 
       - You will get the resulted score (This day i.e., 28/10 is relatively hard to predict, we only got score of 0.2408 using this demo model). BTW, to reproduce our online scores, you can evaluate all submitted files in  'src/weather_forecasting2018_eval/pred_result_csv/submit_csv' by changing evaluated file name.
