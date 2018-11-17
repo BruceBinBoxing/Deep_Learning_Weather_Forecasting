@@ -1,14 +1,15 @@
 Global AI Challenger-Weather Forecasting
 ==============================
-Produce more accurate weather forecasts based on the observation and prediction of meteorological elements.
+> Using deep learning produces more accurate weather forecasts based on the observation and prediction of meteorological elements.
 
-Our rank-3 (CCIT007) score indicates end-to-end seq2seq Deep Learning model with small feature engineering can greatly improve weather forecasting accuracy (*This is my first competition project. If it is helpful, a star would be a big stimuli for me.*)
-
+Our rank-3 (CCIT007) score indicates end-to-end seq2seq Deep Learning model with small feature engineering can greatly improve weather forecasting accuracy (This is our first competition project. If it is helpful, a star would be a big stimuli for us. Many thanks to *Huaishao Luo's* big help.)
+### License
+MIT
 ### Requirements
 Based on **Python 3.6.** Required packages like keras, tensorflow etc. are iincluded in **requirements.txt**. Run bellow command to install them.
 > pip install -r requirements.txt
 
-### Pipeline for quick running.
+### Pipeline for quick start.
 Go to https://challenger.ai/competition/wf2018. to downlowd 3 datasets as bellow (You can switch to English from top-right corner):
 
 Training set: **ai_challenger_wf2018_trainingset_20150301-20180531.nc**  
@@ -33,14 +34,13 @@ Ensure that you are located in the project root directory and implement commands
 
     - You will get the resulted score (This day i.e., 28/10 is relatively hard to predict, we only got score of 0.2408 using this demo model). BTW, to reproduce our online scores, you can evaluate all submitted files in  'src/weather_forecasting2018_eval/pred_result_csv/submit_csv' by changing evaluated file name.
 
-    - Since ensemble can improve the prediction accuracy and stability, I have trained many models for you to try ensemble! Go back to the the project root directory and run next command *7*:
+    - Since ensemble can improve the prediction accuracy and stability, I have trained many models for you to try ensemble! Go back to the the project root directory and run next command 7:
 
   7. *make load_multi_models_pred*
 
      - Three different models are loaded and predict in turn. The resulted .csv file of each model is saved in './src/weather_forecasting2018_eval/ensemble_2018102803/'
-
-    - Then locate yourself to ./src/weather_forecasting2018_eval/ensemble_2018102803/
-    and run next command *8*:
+     - Then locate yourself to ./src/weather_forecasting2018_eval/ensemble_2018102803/
+    and run next command 8:
 
   8. *python ensemble.py*
 
@@ -48,7 +48,7 @@ Ensure that you are located in the project root directory and implement commands
 
   9. *make evaluate_1028_demo_ensemble*
 
-    - You will find the score of ensemble. Maybe sometimes you can find that ensemble result is lower than single model. Don't be confused about this. The performance of a single model can fluctuate very much according to different dataset. However stability is a great trait of ensemble learning. We  got score of 0.3440 using this demo ensemble model, which is a little higher than our online score 0.3358. 
+    - You will find the score of ensemble. Maybe sometimes you can find that ensemble result is lower than single model. Don't be confused about this. The performance of a single model can fluctuate very much according to different dataset. However stability is a great trait of ensemble learning. We  got score of 0.3440 using this demo ensemble model, which is a little higher than our online score 0.3358.
 
 ### How to change test dataset for other days?
 Everyday, we have three opportunities to submit. We will use 3 models
