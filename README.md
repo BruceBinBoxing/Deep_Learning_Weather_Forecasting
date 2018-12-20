@@ -2,7 +2,7 @@ Global AI Challenger-Weather Forecasting
 ==============================
 > Using deep learning produces more accurate weather forecasts based on the observation and prediction of meteorological elements.
 
-Our rank-3 (CCIT007) score indicates end-to-end seq2seq Deep Learning model with small feature engineering can greatly improve weather forecasting accuracy (This is our first competition project. If it is helpful, a star would be a big stimuli for us. Many thanks to *Huaishao Luo's* big help.)
+Our rank-2 (CCIT007) score indicates end-to-end seq2seq Deep Learning model with small feature engineering can greatly improve weather forecasting accuracy (This is our first competition project. If it is helpful, a star would be a big stimuli for us. Many thanks to *Huaishao Luo's* big help.)
 ### License
 Apache
 ### Project Framework
