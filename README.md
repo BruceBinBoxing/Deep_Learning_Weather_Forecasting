@@ -5,6 +5,7 @@ Global AI Challenger-Weather Forecasting
 Our rank-2 (CCIT007) score indicates end-to-end seq2seq Deep Learning model with small feature engineering can greatly improve weather forecasting accuracy (This is our first competition project. If it is helpful, a star would be a big stimuli for us. Many thanks to *Huaishao Luo's* big help.)
 ### License
 Apache
+
 ### Project Framework
 I feel [cookiecutter-data-science](https://drivendata.github.io/cookiecutter-data-science/) is helpful to organize project codes. Hope you also like it.
 ### Requirements
@@ -115,6 +116,10 @@ You can dive into the './src/models/parameter_config_class.py'. Due to the param
 
 Hope your like this project. Please let me know your ideas and questions.
 
+
+### Research Publication
+
+If you want using this code to publish research paper. Please contact the author bin.wang-7@student.uts.edu.au to avoid interest conflicts.
 
 Best regards.
 
