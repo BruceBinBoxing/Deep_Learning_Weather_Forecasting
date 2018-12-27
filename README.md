@@ -2,9 +2,19 @@ Global AI Challenger-Weather Forecasting
 ==============================
 > Using deep learning produces more accurate weather forecasts based on the observation and prediction of meteorological elements.
 
-Our rank-2 (CCIT007) score indicates end-to-end seq2seq Deep Learning model with small feature engineering can greatly improve weather forecasting accuracy (This is our first competition project. If it is helpful, a star would be a big stimuli for us. Many thanks to *Huaishao Luo's* big help.)
+Our online rank-2 (CCIT007) score indicates Deep Learning is very considerable for weather forecasting! Thanks to *Huaishao Luo's* big help.)
 ### License
 Apache
+
+### Research reference
+If you use the codes for research, please cite our paper:
+
+  @article{binwang2018dpi,
+    title={Deep Prediction Interval for Weather Forecasting},
+    author={Bin Wang, Zheng Yan, Huaishao Luo, Tianrui Li},
+    journal={arXiv preprint arXiv:1812.09467},
+    year={2018}
+  }
 
 ### Project Framework
 I feel [cookiecutter-data-science](https://drivendata.github.io/cookiecutter-data-science/) is helpful to organize project codes. Hope you also like it.
