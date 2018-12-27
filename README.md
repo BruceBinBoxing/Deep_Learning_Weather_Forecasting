@@ -8,14 +8,14 @@ Apache
 
 ### Research reference
 If you use the codes for research, please cite our paper:
-
+```
   @article{binwang2018dpi,
     title={Deep Prediction Interval for Weather Forecasting},
     author={Bin Wang, Zheng Yan, Huaishao Luo, Tianrui Li},
     journal={arXiv preprint arXiv:1812.09467},
     year={2018}
   }
-
+```
 ### Project Framework
 I feel [cookiecutter-data-science](https://drivendata.github.io/cookiecutter-data-science/) is helpful to organize project codes. Hope you also like it.
 ### Requirements
