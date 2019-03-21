@@ -2,26 +2,39 @@ Global AI Challenger-Weather Forecasting
 ==============================
 > Using deep learning produces more accurate weather forecasts based on the observation and prediction of meteorological elements.
 
-Our online rank-2 (CCIT007) score indicates Deep Learning is very considerable for weather forecasting! Thanks to *Huaishao Luo's* big help.)
+Our online rank-2 (CCIT007) score indicates Deep Learning is very considerable for weather forecasting!
 ### License
 Apache
 
 ### Research reference
-If you use the codes for research, please cite our paper:
+If you use the codes and method for research, please cite our paper:
 ```
-  @article{binwang2018dpi,
-    title={Deep Prediction Interval for Weather Forecasting},
-    author={Bin Wang, Zheng Yan, Huaishao Luo, Tianrui Li},
-    journal={arXiv preprint arXiv:1812.09467},
-    year={2018}
-  }
+  @article{DBLP:journals/corr/abs-1812-09467,
+  author    = {Bin Wang and
+               Zheng Yan and
+               Huaishao Luo and
+               Tianrui Li and
+               Jie Lu and
+               Guangquan Zhang},
+  title     = {Deep Uncertainty Learning: {A} Machine Learning Approach for Weather
+               Forecasting},
+  journal   = {CoRR},
+  volume    = {abs/1812.09467},
+  year      = {2018},
+  url       = {http://arxiv.org/abs/1812.09467},
+  archivePrefix = {arXiv},
+  eprint    = {1812.09467},
+  timestamp = {Wed, 02 Jan 2019 14:40:18 +0100},
+  biburl    = {https://dblp.org/rec/bib/journals/corr/abs-1812-09467},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
 ```
 ### Project Framework
-I feel [cookiecutter-data-science](https://drivendata.github.io/cookiecutter-data-science/) is helpful to organize project codes. Hope you also like it.
+I feel [cookiecutter-data-science](https://drivendata.github.io/cookiecutter-data-science/) is helpful to organize project codes.
 ### Requirements
 I test it on **MacOS** and **Ubuntu**. It is based on **Python 3.6.** Required packages like keras, tensorflow etc. are iincluded in **requirements.txt**. Run bellow command to install them.
 > pip install -r requirements.txt
-### Pipeline for quick start.
+### Pipeline for quick start.
 Go to https://challenger.ai/competition/wf2018. to downlowd 3 datasets as bellow (You can switch to English from top-right corner):
 
 Training set: **ai_challenger_wf2018_trainingset_20150301-20180531.nc**  
@@ -125,12 +138,6 @@ Everyday, we have three opportunities to submit. We will use 3 models
 You can dive into the './src/models/parameter_config_class.py'. Due to the parameters of the deep model are too many. Here we do not play exhaustedly. We mainly play different parameters of 'self.layers' and use ensemble to combine shallow and deep seq2seq model.
 
 Hope your like this project. Please let me know your ideas and questions.
-
-
-### Research Publication
-
-If you want using this code to publish research paper. Please contact the author bin.wang-7@student.uts.edu.au to avoid interest conflicts.
-
 Best regards.
 
 *Bin*
