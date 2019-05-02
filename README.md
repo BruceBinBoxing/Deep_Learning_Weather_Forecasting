@@ -1,8 +1,11 @@
-Global AI Challenger-Weather Forecasting
-==============================
-> Using deep learning produces more accurate weather forecasts based on the observation and prediction of meteorological elements.
 
-Our online rank-2 (CCIT007) score indicates Deep Learning is very considerable for weather forecasting!
+Application track paper (Oral) of KDD 2019
+==============================
+> Sequential deep uncertainty quantification (DUQ) produces more accurate weather forecasting based on the observation and NWP prediction. Our online rank-2 (CCIT007) in *Global AI Challenger-Weather Forecasting* (https://challenger.ai/competition/wf2018) indicates deep learning is very considerable for large-scale meteorological data modeling and forecasting! 
+> Negative log loss for end-to-end sequential uncertainty quantification is proposed.
+> **Important experimental phenomenon was reported and analysized experimentally**, which may be noteworthy in the furture deep learning researches for spatio-temporal data and time series forecasting.
+
+
 ### License
 Apache
 
@@ -16,21 +19,14 @@ If you use the codes and method for research, please cite our paper:
                Tianrui Li and
                Jie Lu and
                Guangquan Zhang},
-  title     = {Deep Uncertainty Learning: {A} Machine Learning Approach for Weather
+  title     = {Deep Uncertainty Learning: A Machine Learning Approach for Weather
                Forecasting},
   journal   = {CoRR},
   volume    = {abs/1812.09467},
   year      = {2018},
-  url       = {http://arxiv.org/abs/1812.09467},
-  archivePrefix = {arXiv},
-  eprint    = {1812.09467},
-  timestamp = {Wed, 02 Jan 2019 14:40:18 +0100},
-  biburl    = {https://dblp.org/rec/bib/journals/corr/abs-1812-09467},
-  bibsource = {dblp computer science bibliography, https://dblp.org}
+  url       = {http://arxiv.org/abs/1812.09467}
 }
 ```
-### Project Framework
-I feel [cookiecutter-data-science](https://drivendata.github.io/cookiecutter-data-science/) is helpful to organize project codes.
 ### Requirements
 I test it on **MacOS** and **Ubuntu**. It is based on **Python 3.6.** Required packages like keras, tensorflow etc. are iincluded in **requirements.txt**. Run bellow command to install them.
 > pip install -r requirements.txt
