@@ -14,7 +14,7 @@ Apache
 If you use the codes and method for research, please cite our paper:
 
 ```
-@article{Wang2018DeepUQ,
+@inproceedings{Wang2018DeepUQ,
   title={Deep Uncertainty Quantification: A Machine Learning Approach for Weather Forecasting},
   author={Bin Wang and Jie Lu and Zheng Yan and Huaishao Luo and Tianrui Li and Yu Zheng and Guangquan Zhang},
   year={2019},
