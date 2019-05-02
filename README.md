@@ -12,20 +12,16 @@ Apache
 
 ### Research reference
 If you use the codes and method for research, please cite our paper:
+
 ```
-  @article{DBLP:journals/corr/abs-1812-09467,
-  author    = {Bin Wang and
-               Zheng Yan and
-               Huaishao Luo and
-               Tianrui Li and
-               Jie Lu and
-               Guangquan Zhang},
-  title     = {Deep Uncertainty Learning: A Machine Learning Approach for Weather
-               Forecasting},
-  journal   = {CoRR},
-  volume    = {abs/1812.09467},
-  year      = {2018},
-  url       = {http://arxiv.org/abs/1812.09467}
+@article{Wang2018DeepUQ,
+  title={Deep Uncertainty Quantification: A Machine Learning Approach for Weather Forecasting},
+  author={Bin Wang and Jie Lu and Zheng Yan and Huaishao Luo and Tianrui Li and Yu Zheng and Guangquan Zhang},
+  year={2019},
+  booktitle={KDD},
+  organization={ACM},
+  volume = {abs/1812.09467},
+  url = {http://arxiv.org/abs/1812.09467}
 }
 ```
 ### Requirements
