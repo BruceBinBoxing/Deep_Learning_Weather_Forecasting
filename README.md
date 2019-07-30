@@ -16,13 +16,22 @@ Apache
 If you use the codes and method for research, please cite our paper:
 
 ```
-@inproceedings{Wang2018DeepUQ,
-  title={Deep Uncertainty Quantification: A Machine Learning Approach for Weather Forecasting},
-  author={Bin Wang and Jie Lu and Zheng Yan and Huaishao Luo and Tianrui Li and Yu Zheng and Guangquan Zhang},
-  year={2019},
-  booktitle={KDD},
-  organization={ACM},
-  url = {http://urban-computing.com/pdf/kdd19-BinWang.pdf}
+@inproceedings{Wang:2019:DUQ:3292500.3330704,
+ author = {Wang, Bin and Lu, Jie and Yan, Zheng and Luo, Huaishao and Li, Tianrui and Zheng, Yu and Zhang, Guangquan},
+ title = {Deep Uncertainty Quantification: A Machine Learning Approach for Weather Forecasting},
+ booktitle = {Proceedings of the 25th ACM SIGKDD International Conference on Knowledge Discovery \&\#38; Data Mining},
+ series = {KDD '19},
+ year = {2019},
+ isbn = {978-1-4503-6201-6},
+ location = {Anchorage, AK, USA},
+ pages = {2087--2095},
+ numpages = {9},
+ url = {http://doi.acm.org/10.1145/3292500.3330704},
+ doi = {10.1145/3292500.3330704},
+ acmid = {3330704},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {deep learning, uncertainty quantification, urban computing, weather forecasting},
 }
 ```
 ### Requirements
