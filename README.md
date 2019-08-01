@@ -1,6 +1,7 @@
 Accepted paper of KDD 2019 (Oral) 
 ==============================
-pdf link: http://urban-computing.com/pdf/kdd19-BinWang.pdf
+Paper: http://urban-computing.com/pdf/kdd19-BinWang.pdf
+3 mins promotional videos: https://www.youtube.com/watch?v=3WPkXWZm89w&list=PLhzEeQSx1uAFVhR8m631pY5TNiP1hkZCn&index=68&t=0s
 
 > 1. Sequential deep uncertainty quantification (DUQ) produces more accurate weather forecasting based on the observation and NWP prediction. Our online rank-2 (CCIT007) in *Global AI Challenger-Weather Forecasting* (https://challenger.ai/competition/wf2018) indicates deep learning is very considerable for large-scale meteorological data modeling and forecasting! 
 
@@ -13,7 +14,7 @@ pdf link: http://urban-computing.com/pdf/kdd19-BinWang.pdf
 Apache
 
 ### Research reference
-If you use the codes and method for research, please cite our paper:
+If you feel it helpful, please cite our paper:
 
 ```
 @inproceedings{Wang:2019:DUQ:3292500.3330704,
