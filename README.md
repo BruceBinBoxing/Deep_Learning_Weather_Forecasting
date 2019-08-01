@@ -1,6 +1,7 @@
 Accepted paper of KDD 2019 (Oral) 
 ==============================
 Paper: http://urban-computing.com/pdf/kdd19-BinWang.pdf
+
 3 mins promotional videos: https://www.youtube.com/watch?v=3WPkXWZm89w&list=PLhzEeQSx1uAFVhR8m631pY5TNiP1hkZCn&index=68&t=0s
 
 > 1. Sequential deep uncertainty quantification (DUQ) produces more accurate weather forecasting based on the observation and NWP prediction. Our online rank-2 (CCIT007) in *Global AI Challenger-Weather Forecasting* (https://challenger.ai/competition/wf2018) indicates deep learning is very considerable for large-scale meteorological data modeling and forecasting! 
@@ -12,29 +13,6 @@ Paper: http://urban-computing.com/pdf/kdd19-BinWang.pdf
 
 ### License
 Apache
-
-### Research reference
-If you feel it helpful, please cite our paper:
-
-```
-@inproceedings{Wang:2019:DUQ:3292500.3330704,
- author = {Wang, Bin and Lu, Jie and Yan, Zheng and Luo, Huaishao and Li, Tianrui and Zheng, Yu and Zhang, Guangquan},
- title = {Deep Uncertainty Quantification: A Machine Learning Approach for Weather Forecasting},
- booktitle = {Proceedings of the 25th ACM SIGKDD International Conference on Knowledge Discovery \&\#38; Data Mining},
- series = {KDD '19},
- year = {2019},
- isbn = {978-1-4503-6201-6},
- location = {Anchorage, AK, USA},
- pages = {2087--2095},
- numpages = {9},
- url = {http://doi.acm.org/10.1145/3292500.3330704},
- doi = {10.1145/3292500.3330704},
- acmid = {3330704},
- publisher = {ACM},
- address = {New York, NY, USA},
- keywords = {deep learning, uncertainty quantification, urban computing, weather forecasting},
-}
-```
 ### Requirements
 I test it on **MacOS** and **Ubuntu**. It is based on **Python 3.6.** Required packages like keras, tensorflow etc. are iincluded in **requirements.txt**. Run bellow command to install them.
 > pip install -r requirements.txt
@@ -141,10 +119,28 @@ Everyday, we have three opportunities to submit. We will use 3 models
 
 You can dive into the './src/models/parameter_config_class.py'. Due to the parameters of the deep model are too many. Here we do not play exhaustedly. We mainly play different parameters of 'self.layers' and use ensemble to combine shallow and deep seq2seq model.
 
-Hope your like this project. Please let me know your ideas and questions.
-Best regards.
+### Research reference
+If you feel it helpful, please cite our paper:
 
-*Bin*
+```
+@inproceedings{Wang:2019:DUQ:3292500.3330704,
+ author = {Wang, Bin and Lu, Jie and Yan, Zheng and Luo, Huaishao and Li, Tianrui and Zheng, Yu and Zhang, Guangquan},
+ title = {Deep Uncertainty Quantification: A Machine Learning Approach for Weather Forecasting},
+ booktitle = {Proceedings of the 25th ACM SIGKDD International Conference on Knowledge Discovery \&\#38; Data Mining},
+ series = {KDD '19},
+ year = {2019},
+ isbn = {978-1-4503-6201-6},
+ location = {Anchorage, AK, USA},
+ pages = {2087--2095},
+ numpages = {9},
+ url = {http://doi.acm.org/10.1145/3292500.3330704},
+ doi = {10.1145/3292500.3330704},
+ acmid = {3330704},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {deep learning, uncertainty quantification, urban computing, weather forecasting},
+}
+```
 
 Project Organization
 ------------
