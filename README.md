@@ -1,9 +1,5 @@
 Accepted paper of KDD 2019 (Oral) 
 ==============================
-Paper: http://urban-computing.com/pdf/kdd19-BinWang.pdf
-
-3 mins promotional videos: https://www.youtube.com/watch?v=3WPkXWZm89w&list=PLhzEeQSx1uAFVhR8m631pY5TNiP1hkZCn&index=68&t=0s
-
 > 1. Sequential deep uncertainty quantification (DUQ) produces more accurate weather forecasting based on the observation and NWP prediction. Our online rank-2 (CCIT007) in *Global AI Challenger-Weather Forecasting* (https://challenger.ai/competition/wf2018) indicates deep learning is very considerable for large-scale meteorological data modeling and forecasting! 
 
 > 2. Negative log loss for end-to-end sequential uncertainty quantification is proposed.
@@ -120,6 +116,10 @@ Everyday, we have three opportunities to submit. We will use 3 models
 You can dive into the './src/models/parameter_config_class.py'. Due to the parameters of the deep model are too many. Here we do not play exhaustedly. We mainly play different parameters of 'self.layers' and use ensemble to combine shallow and deep seq2seq model.
 
 ### Research reference
+Paper: http://urban-computing.com/pdf/kdd19-BinWang.pdf
+
+3 mins promotional videos: https://www.youtube.com/watch?v=3WPkXWZm89w&list=PLhzEeQSx1uAFVhR8m631pY5TNiP1hkZCn&index=68&t=0s
+
 If you feel it helpful, please cite our paper:
 
 ```
