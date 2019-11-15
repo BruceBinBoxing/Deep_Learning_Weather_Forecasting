@@ -4,7 +4,7 @@ DUQ: A Machine Learning Approach for Weather Forecasting
 
 > 1. Sequential deep uncertainty quantification (DUQ) produces more accurate weather forecasting based on the observation and NWP prediction. Our online rank-2 (CCIT007) in *Global AI Challenger-Weather Forecasting* (https://challenger.ai/competition/wf2018) indicates deep learning is very considerable for large-scale meteorological data modeling and forecasting! 
 
-> 2. Negative log loss for end-to-end sequential uncertainty quantification is proposed.
+> 2. Pragmatical loss function for sequence-to-sequence uncertainty quantification is proposed.
 
 > 3. **Important experimental phenomenon was reported and analysized experimentally**, which may be noteworthy in the furture deep learning researches for spatio-temporal data and time series forecasting.
 
@@ -43,11 +43,11 @@ If you feel it helpful, please cite our paper:
 I test it on **MacOS** and **Ubuntu**. It is based on **Python 3.6.** Required packages like keras, tensorflow etc. are iincluded in **requirements.txt**. Run bellow command to install them.
 > pip install -r requirements.txt
 ### Pipeline for quick start.
-Go to https://challenger.ai/competition/wf2018. to downlowd 3 datasets as bellow (You can switch to English from top-right corner):
+I noticed that the competition link has been closed. However, competitors have uploaded the [raw dataset](https://github.com/Ericonaldo/AI-Challenger-Weather-Forecast/tree/master/data).
 
 Training set: **ai_challenger_wf2018_trainingset_20150301-20180531.nc**  
 Validation set: **ai_challenger_wf2018_validation_20180601-20180828_20180905.nc**  
-Test set (Taking one-day test data on 28/10/2018 as an example): **ai_challenger_wf2018_testb1_20180829-20181028**
+Test set (Taking one-day test data on 28/10/2018 as an example): **ai_challenger_wf2018_testb1_20180829-20181028.nc**
 
 After downloaded, set three original dataset into the folder ./data/raw/
 (For quick start, we just take  **ai_challenger_wf2018_testb1_20180829-20181028** as a test example, you can easily re-name the related arguments and apply it on other test set, which can be introduced in later section **How to change test dataset for other days?** )
